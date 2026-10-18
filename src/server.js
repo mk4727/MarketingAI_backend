@@ -25,7 +25,8 @@ const app = express();
 app.use(cors({
    origin: [
     'http://localhost:5173',
-    'https://marketing-ai-dashboard-chi.vercel.app'
+    'https://marketing-ai-dashboard-wheat.vercel.app'
+      
   ],
   credentials: true,
 }));
